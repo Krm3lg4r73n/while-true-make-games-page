@@ -10,7 +10,7 @@ jekyll build
 
 cd $DEPLOY_DIR
 rm -Rf ./*
-cp -r "$SOURCE_DIR/_site/" "./"
+cp -r $SOURCE_DIR/_site/* .
 git add .
 git commit -m "Automatic deploy"
 git push
