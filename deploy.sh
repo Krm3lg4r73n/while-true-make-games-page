@@ -6,7 +6,7 @@ DEPLOY_DIR="/home/david/Code/while-true-make-games-page"
 SAVED_DIR="$(pwd)"
 
 echo "=============================================="
-echo "Building jekyll page"
+echo "Build jekyll page"
 echo "=============================================="
 cd $SOURCE_DIR
 jekyll build
